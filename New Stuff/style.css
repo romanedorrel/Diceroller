@@ -1,0 +1,43 @@
+* {
+header{
+    background-color: #3f3939;
+    padding: 3rem;
+    text-align:center;
+    font-size: 35px;
+    color:Yellow;
+}
+nav{
+    border: 1px solid green;
+    background-color: grey;
+    padding: 1rem;
+    text-align: center;
+    font-size: 25px;
+    /*color: white;*/
+}
+nav p{
+    color: white;
+}
+footer{
+    background-color:cyan;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+article{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+article button{
+    height: 2rem;
+}
+article img{
+    width: 200px;
+    height: 200px;
+}
+}
